@@ -7,7 +7,7 @@ messenger.composeAction.onClicked.addListener(async (tab, info) => {
     await messenger.compose.setComposeDetails(tab.id, details);
     // Check if the message body is empty by dumping it to the console
     details = await messenger.compose.getComposeDetails(tab.id);
-    console.debug(details.plainTextBody);
+    console.debug("plainTextBody:", details.plainTextBody);
 });
 
 messenger.browserAction.onClicked.addListener(() => messenger.compose.beginNew({
