@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Demonstrate setComposeDetails bug",
+    "version": "1.0.0",
+    "permissions": [
+        "compose"
+    ],
+    "compose_action": {
+        "default_title": "Empty body"
+    },
+    "browser_action": {
+        "default_title": "Open text message"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
