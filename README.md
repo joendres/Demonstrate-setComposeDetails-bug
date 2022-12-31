@@ -1,6 +1,6 @@
 # Demonstrate setComposeDetails bug
 
-This demonstrates bug # in Thunderbird.
+This demonstrates [bug 1808100](https://bugzilla.mozilla.org/show_bug.cgi?id=1808100) in Thunderbird.
 
 ## Install
 
